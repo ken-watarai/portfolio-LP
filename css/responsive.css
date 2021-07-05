@@ -98,6 +98,10 @@
 }
 
 @media screen and (max-width: 750px) {
+  /* trouble-solution */
+  .trouble-title {
+    font-size: 20px;
+  }
   /* to success and success key  */
   .success-key-box-wrapper  {
     width: 100%;
