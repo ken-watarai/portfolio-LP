@@ -1,0 +1,154 @@
+
+@media screen and (max-width: 1024px) {
+
+  /* セクション */
+  section {
+    padding-bottom: 30px;
+  }
+  
+  #br {
+    display: inline;
+  }
+
+  /* top-section */
+  .top-view {
+    height: auto;
+  }
+  .top-text {
+    margin: 80px auto;
+  }
+
+  /* read-book */
+  .read-book-inner h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .read-book-inner {
+    padding: 2%;
+  }
+
+
+  /* trouble-solution-section */
+  .trouble-contents {
+    flex-direction: column;
+  }
+  .trouble-box {
+    width: 100%;
+    max-width: none;
+    padding: 4%;
+  }
+  .trouble-box-wrapper {
+    width: 100%;
+    /* margin: 0 auto; */
+    float: none;
+  }
+  .trouble-img {
+    position: static;
+    width: 60%;
+    height: 30vw;
+    margin: 0 auto 2%;
+    transform: translate(0, 0);
+  }
+  .trouble-title {
+    font-size: 36px;
+  }
+  .trouble-txt {
+    font-size: 20px;
+  }
+
+
+  /* success-case-section */
+  
+  .success-img-2 {
+    right: -5%;
+  }
+
+
+  /* active flow section */
+  .slide-txt-box {
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    font-size: 2vw;
+    transform: translate(-50%, -50%);
+    opacity: 0.4;
+  }
+  .slide-txt-box:hover {
+    opacity: 1;
+  }
+
+
+
+  /* price section */
+  .price-table table {
+    width: 100%;
+    margin: 0 50px;
+  }
+
+  /* FAQ */
+  .QA-blocks {
+    display: none;
+  }
+  .QA-boxes {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  /* to success and success key  */
+  .success-key-box-wrapper  {
+    width: 100%;
+  }
+  .success-key-box {
+    padding: 65% 4% 6%;
+  }
+  .key-left .key,
+  .key-right,
+  .key-right .key {
+    margin: 0 auto;
+  }
+
+
+  /* suppurt detail section */
+  .detail-child {
+    flex-direction: column;
+  }
+  .detail-child * {
+    margin: 0 auto;
+  }
+  .detail-img-box img {
+    width: 80%;
+  }
+
+  /* active flow section */
+  .sliderArea {
+    width: 80%;
+  }
+  .slick-next{ right: -15px; }
+  .slick-prev{ left: -15px; }
+}
+
+@media screen and (max-width: 600px) {
+
+  header {
+    flex-direction: column;
+  }
+  header p {
+    margin-bottom: 10px;
+  }
+
+	/* tops-section */
+	.top-text {
+    font-size: 40px;
+  }
+
+  /* success-solution-section */
+  .success-count-box p {
+    font-size: 4vw;
+  }
+  .success-count-box .satifaction-level {
+    font-size: 10vw;
+  }
+
+
+}

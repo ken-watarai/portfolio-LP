@@ -1,0 +1,77 @@
+/* ここからreset */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* やばかったら下消す */
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  border-radius: 7px;
+  background-color: #19448e;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  padding: 15px 80px;
+  background-color: rgba(200, 200, 200,.6);
+  z-index: 100;
+}
+header a {
+  padding: 10px;
+}
+
+
+#go-top {
+  display: block;
+  position: sticky;
+  top: 90%;
+  left: 90%;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #777;
+  z-index: 100;
+}
+#go-top-arrow {
+  position: relative;
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+}
+#go-top-arrow::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border: 0;
+  border-top: solid 2px #eee;
+  border-right: solid 2px #eee;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, -10%) rotate(-45deg);
+}
+
+
+footer {
+  display: flex;
+  padding: 13px 50px;
+  background-color: #1a1a1a;
+  color: #efefef;
+}
